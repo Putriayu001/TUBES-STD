@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1672661586 source:c:\tugas besar std e-commerce\child.cpp
+	"child.h"
+
+1672661586 c:\tugas besar std e-commerce\child.h
+	<iostream>
+
+1672661586 source:c:\tugas besar std e-commerce\relation.cpp
+	"relation.h"
+	"child.h"
+
+1672661586 c:\tugas besar std e-commerce\relation.h
+	"child.h"
+	<iostream>
+
+1672661586 source:c:\tugas besar std e-commerce\parent.cpp
+	"parent.h"
+
+1672661620 c:\tugas besar std e-commerce\parent.h
+	<iostream>
+	"relation.h"
+	"child.h"
+
+1672663263 source:c:\tugas besar std e-commerce\main.cpp
+	<iostream>
+	<string>
+	"parent.h"
+	"child.h"
+	"relation.h"
+
